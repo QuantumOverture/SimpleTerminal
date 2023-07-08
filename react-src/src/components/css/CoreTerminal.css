@@ -1,0 +1,27 @@
+#TerminalBox{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    color: white;
+    padding-left: 0.25em;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#dataEntry{
+    outline: none;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#hostString{
+    margin-top: 1em;
+}

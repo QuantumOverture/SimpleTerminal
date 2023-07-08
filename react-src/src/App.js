@@ -1,11 +1,12 @@
 import { useEffect,useState } from 'react'
 import './App.css';
-
+import CoreTerminal from './components/CoreTerminal';
 // Import filesystem namespace
-import { os } from "@neutralinojs/lib"
+//import { os } from "@neutralinojs/lib"
 
 function App() {
 
+  /*
   const [pythonVersion,setPythonVersion] = useState("0.0")
   // Log current directory or error after component is mounted
   useEffect(() => {
@@ -17,11 +18,10 @@ function App() {
       console.log(err)
     })
   }, [])
+  */
 
   return (
-    <div className="App">
-      Python Version: {pythonVersion}
-    </div>
+    <CoreTerminal/>
   );
 }
 
